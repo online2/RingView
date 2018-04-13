@@ -1,9 +1,9 @@
 1.自定义进度圆环，最多支持嵌套四个圆环<br>
-        按照惯例先扔上效果图
+        按照惯例先扔上效果图<br>
         (1)具体效果图<br>
-             ![image](https://github.com/online2/wilianChartShowValue/blob/master/mobile/src/main/res/drawable-xhdpi/horbar_icon.png) <br>
+             ![image](https://github.com/online2/RingView/tree/master/app/src/main/res/drawable-xxhdpi/ringview.gif) <br>
              
-        方法属性
+        方法属性<br>
         (2) 提供如下自定义属性，设置不同样式，颜色<br>
           <!--内层圆环宽度-->
                 <attr name="inner_stroke_width" format="dimension"/><br>
@@ -37,7 +37,11 @@
                 <attr name="filled_show" format="boolean"/><br>
                 <!--圆环是否可以点击--><br>
                 <attr name="ring_is_clickable" format="boolean"/><br>
-            
+                
+        (3) 提供一系列设置方法<br> 
+            如：设置进度setRingOverallProgress<br> 
+            highlight()设置高亮，取消高亮unhighlight();<br>
+            等等具体可以看详细代码
             
             
        
