@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.mrchao.www.ringview.MainActivity">
+
+
+
+        <com.mrchao.www.ringview.RingView
+        android:id="@+id/rings4"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:default_filled_color="#000000"
+        app:filled_show="true"
+        app:inner_first_color="#ff495a"
+        app:inner_first_progress="30"
+        app:inner_first_show="true"
+        app:inner_second_color="#09e5ff"
+        app:inner_second_progress="75"
+        app:inner_second_show="true"
+        app:inner_stroke_width="6dp"
+        app:inner_stroke_width_unfinished="12dp"
+        app:inner_third_color="#ffeb09"
+        app:inner_third_progress="85"
+        app:inner_third_show="true"
+        app:outer_stroke_width="7dp"
+        app:outer_stroke_width_unfinished="14dp"
+        app:overall_color="#9cff2b"
+        app:overall_progress="90"
+        app:ring_is_clickable="true"
+        app:unfinished_color="#73abaf"/>
+
+</LinearLayout>

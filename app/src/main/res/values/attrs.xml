@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--圆环View-->
+    <declare-styleable name="Rings_View">
+        <!--内层圆环宽度-->
+        <attr name="inner_stroke_width" format="dimension"/>
+        <!--内层圆环底层宽度-->
+        <attr name="inner_stroke_width_unfinished" format="dimension"/>
+        <!--最外层圆环宽度-->
+        <attr name="outer_stroke_width" format="dimension"/>
+        <!--最外层圆环底层宽度-->
+        <attr name="outer_stroke_width_unfinished" format="dimension"/>
+        <!--圆环填充色底色-->
+        <attr name="unfinished_color" format="color"/>
+        <!--默认点击时其他圆环进度填充色-->
+        <attr name="default_filled_color" format="color"/>
+
+        <!--第四个圆环颜色-->
+        <attr name="inner_first_color" format="color"/>
+        <!--第三个圆环颜色-->
+        <attr name="inner_second_color" format="color"/>
+        <!--第二个圆环颜色-->
+        <attr name="inner_third_color" format="color"/>
+        <!--第一个圆环颜色-->
+        <attr name="overall_color" format="color"/>
+        <!--对应圆环进度-->
+        <attr name="inner_first_progress" format="float"/>
+        <attr name="inner_second_progress" format="float"/>
+        <attr name="inner_third_progress" format="float"/>
+        <attr name="overall_progress" format="float"/>
+        <!--是否显示对应圆环-->
+        <attr name="inner_first_show" format="boolean"/>
+        <attr name="inner_second_show" format="boolean"/>
+        <attr name="inner_third_show" format="boolean"/>
+        <attr name="filled_show" format="boolean"/>
+        <!--圆环是否可以点击-->
+        <attr name="ring_is_clickable" format="boolean"/>
+    </declare-styleable>
+
+
+</resources>
